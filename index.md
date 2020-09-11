@@ -4,6 +4,11 @@ Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémi
 *Posledná aktualizácia: 11.09.2020 16:00 - upravená táto stránka, neskôr doplním kód*
 
 ### 11.09.2020
+Inštalácia Android Studio:
+* AVD manager - na vytvorenie vyrtuálneho zariadenia
+* SDK manager - na stiahnutie potrebných knižníc (hlavne SDK pre konkrétnu verziu Androidu)
+* pre vývoj na svojom telefóne potrebujete povoliť Developer options a USB debugging
+* zatiaľ nový projekt vytvárame pre Javu, minimálnu verziu SDK - API 16 a s jednou Empty aktivitou
 
 Aplikácia **Random Roll**
 * zdrojový kód a komentár dostupný na: \[doplním neskôr\]
