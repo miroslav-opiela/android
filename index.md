@@ -13,11 +13,11 @@ Inštalácia Android Studio:
 * zatiaľ nový projekt vytvárame pre Javu, minimálnu verziu SDK - API 16 a s jednou Empty aktivitou
 
 Aplikácia **Random Roll**
-* zdrojový kód a komentár dostupný na: https://github.com/miroslav-opiela/itsovy-2020-random_roll
+* zdrojový kód a komentár: [github itsovy-2020-random_roll](https://github.com/miroslav-opiela/itsovy-2020-random_roll)
 * Preberané koncepty: aplikácia (manifest, resources, aktivity), constraint layout, jednotky (dp, px, sp), prepojenie layout-aktivita
 
 Aplikácia **Button Moo**
-* zdrojový kód a komentár dostupný na: https://github.com/miroslav-opiela/itsovy-2020-button_moo
+* zdrojový kód a komentár dostupný na: [github itsovy-2020-button_moo](https://github.com/miroslav-opiela/itsovy-2020-button_moo)
 * Prebrané koncepty: resources, životný cyklus aktivity
 * Podklady k druhej aplikácii:
   * [mp3](https://github.com/miroslav-opiela/vma2018-krava/blob/master/app/src/main/res/raw/cow.mp3) 
