@@ -1,7 +1,9 @@
 ## Android 
 
 Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémie 2020/2021.
-*Posledná aktualizácia: 11.09.2020 16:00 - upravená táto stránka, neskôr doplním kód*
+
+*Aktualizácie od posledného stretnutia na výučbe:* 
+* *11.09.2020 16:00 - upravená táto stránka, kód a komentáre budú doplnené neskôr*
 
 ### 11.09.2020
 Inštalácia Android Studio:
@@ -11,11 +13,11 @@ Inštalácia Android Studio:
 * zatiaľ nový projekt vytvárame pre Javu, minimálnu verziu SDK - API 16 a s jednou Empty aktivitou
 
 Aplikácia **Random Roll**
-* zdrojový kód a komentár dostupný na: \[doplním neskôr\]
+* zdrojový kód a komentár dostupný na: https://github.com/miroslav-opiela/itsovy-2020-random_roll
 * Preberané koncepty: aplikácia (manifest, resources, aktivity), constraint layout, jednotky (dp, px, sp), prepojenie layout-aktivita
 
 Aplikácia **Button Moo**
-* zdrojový kód a komentár dostupný na: \[doplním neskôr\] 
+* zdrojový kód a komentár dostupný na: https://github.com/miroslav-opiela/itsovy-2020-button_moo
 * Prebrané koncepty: resources, životný cyklus aktivity
 * Podklady k druhej aplikácii:
   * [mp3](https://github.com/miroslav-opiela/vma2018-krava/blob/master/app/src/main/res/raw/cow.mp3) 
