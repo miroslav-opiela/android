@@ -15,7 +15,7 @@ Inštalácia Android Studio:
 
 Aplikácia **Random Roll**
 * zdrojový kód: [github](https://github.com/miroslav-opiela/itsovy-2020-random_roll)
-* prezentácia: [PDF](docs/01-RandomRoll.pdf)
+* prezentácia: [PDF]({{ site.baseurl }}docs/01-RandomRoll.pdf)
 * Preberané koncepty: aplikácia (manifest, resources, aktivity), constraint layout, jednotky (dp, px, sp), prepojenie layout-aktivita
 
 Aplikácia **Button Moo**
