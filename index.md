@@ -3,6 +3,7 @@
 Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémie 2020/2021.
 
 *Aktualizácie od posledného stretnutia na výučbe:* 
+* *14.09.2020 11:00 - pridaný kód k aplikácii Button Moo + prezentácia*
 * *12.09.2020 9:00 - pridaný kód k aplikácii Random Roll + prezentácia*
 * *11.09.2020 16:00 - upravená táto stránka, kód a komentáre budú doplnené neskôr*
 
@@ -19,8 +20,6 @@ Aplikácia **Random Roll**
 * Preberané koncepty: aplikácia (manifest, resources, aktivity), constraint layout, jednotky (dp, px, sp), prepojenie layout-aktivita
 
 Aplikácia **Button Moo**
-* zdrojový kód a komentár dostupný na: [github itsovy-2020-button_moo](https://github.com/miroslav-opiela/itsovy-2020-button_moo)
+* zdrojový kód: [github](https://github.com/miroslav-opiela/itsovy-2020-button_moo)
+* prezentácia: [PDF](https://github.com/miroslav-opiela/android/blob/gh-pages/docs/02-ButtonMoo.pdf)
 * Prebrané koncepty: resources, životný cyklus aktivity
-* Podklady k druhej aplikácii:
-  * [mp3](https://github.com/miroslav-opiela/vma2018-krava/blob/master/app/src/main/res/raw/cow.mp3) 
-  * [png](https://github.com/miroslav-opiela/vma2018-krava/blob/master/app/src/main/res/drawable/cow.png)
