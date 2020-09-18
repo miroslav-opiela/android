@@ -1,5 +1,8 @@
 ## Android 
 
+### 18.09.2020
+* [Obesenec](https://github.com/miroslav-opiela/itsovy-2020-hangman)
+
 Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémie 2020/2021.
 
 *Aktualizácie od posledného stretnutia na výučbe:* 
