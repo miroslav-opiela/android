@@ -1,14 +1,12 @@
 ## Android 
 
-### 18.09.2020
-* [Obesenec](https://github.com/miroslav-opiela/itsovy-2020-hangman)
-
 Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémie 2020/2021.
 
-*Aktualizácie od posledného stretnutia na výučbe:* 
-* *14.09.2020 11:00 - pridaný kód k aplikácii Button Moo + prezentácia*
-* *12.09.2020 9:00 - pridaný kód k aplikácii Random Roll + prezentácia*
-* *11.09.2020 16:00 - upravená táto stránka, kód a komentáre budú doplnené neskôr*
+### 18.09.2020
+Aplikácia **Hangman**
+* zdrojový kód [Hangman](https://github.com/miroslav-opiela/itsovy-2020-hangman)
+* prezentácia: [PDF](https://github.com/miroslav-opiela/android/blob/gh-pages/docs/03-Hangman.pdf)
+* Preberané koncepty: logovanie, životný cyklus aktivity, constraintLayout a základné widgety (edittext, textview, imageview), toast notifikácie
 
 ### 11.09.2020
 Inštalácia Android Studio:
