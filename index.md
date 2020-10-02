@@ -2,6 +2,11 @@
 
 Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémie 2020/2021.
 
+### 25.09.2020
+Aplikácia **Weblink**
+* zdrojový kód [Weblink](https://github.com/miroslav-opiela/itsovy-2020-weblink)
+
+
 ### 18.09.2020
 Aplikácia **Hangman**
 * zdrojový kód [Hangman](https://github.com/miroslav-opiela/itsovy-2020-hangman)
