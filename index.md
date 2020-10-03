@@ -2,9 +2,25 @@
 
 Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémie 2020/2021.
 
+### 09.10.2020
+* Úloha: doplňte kód aplikácie Weblink, aby fungovala editácia. Teda po kliknutí na *save* v detail aktivite sa aktualizuje zoznam v hlavnej aktivite.
+
+### 02.10.2020
+Aplikácia **Weblink** (pokračovanie)
+* zdrojový kód [Weblink](https://github.com/miroslav-opiela/itsovy-2020-weblink)
+* prezentácia: [PDF](https://github.com/miroslav-opiela/android/blob/gh-pages/docs/04-Weblink.pdf)
+* Preberané koncepty: recyclerview-adapter-viewholder, listener, intent, spustenie inej aktivity
+
 ### 25.09.2020
 Aplikácia **Weblink**
 * zdrojový kód [Weblink](https://github.com/miroslav-opiela/itsovy-2020-weblink)
+* prezentácia: [PDF](https://github.com/miroslav-opiela/android/blob/gh-pages/docs/04-Weblink.pdf)
+* Preberané koncepty: recycler view
+
+Aplikácia **Hangman** (pokračovanie)
+* zdrojový kód [Hangman](https://github.com/miroslav-opiela/itsovy-2020-hangman)
+* prezentácia: [PDF](https://github.com/miroslav-opiela/android/blob/gh-pages/docs/03-Hangman.pdf)
+* Preberané koncepty: shared preferences, bundle, uloženie stavu aktivity, meranie času, dialógové okná
 
 
 ### 18.09.2020
