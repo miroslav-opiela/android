@@ -3,7 +3,15 @@
 Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémie 2020/2021.
 
 ### 09.10.2020
-* Úloha: doplňte kód aplikácie Weblink, aby fungovala editácia. Teda po kliknutí na *save* v detail aktivite sa aktualizuje zoznam v hlavnej aktivite.
+Aplikácia **Weblink** (pokračovanie)
+* zdrojový kód [Weblink](https://github.com/miroslav-opiela/itsovy-2020-weblink)
+* prezentácia: [PDF](https://github.com/miroslav-opiela/android/blob/gh-pages/docs/04-Weblink.pdf)
+* Preberané koncepty: toolbar a action bar, menu, swipe
+* Videozáznamy:
+  * [SOVY 09.10.2020 Weblink #1 - sumarizácia, update zoznamu](https://www.youtube.com/watch?v=PzmcdCVbTZE)
+  * [SOVY 09.10.2020 Weblink #2 - toolbar](https://www.youtube.com/watch?v=OXlFVvDvZNI)
+* Odkazy:
+  * [Swipe to Delete + Snackbar Undo](https://medium.com/@zackcosborn/step-by-step-recyclerview-swipe-to-delete-and-undo-7bbae1fce27e)
 
 ### 02.10.2020
 Aplikácia **Weblink** (pokračovanie)
