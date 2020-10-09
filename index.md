@@ -10,7 +10,7 @@ Aplikácia **Weblink** (pokračovanie)
 * Videozáznamy:
   * [SOVY 09.10.2020 Weblink #1 - sumarizácia, update zoznamu](https://www.youtube.com/watch?v=PzmcdCVbTZE)
   * [SOVY 09.10.2020 Weblink #2 - toolbar](https://www.youtube.com/watch?v=OXlFVvDvZNI)
-  * [SOVY 09.10.2020 Weblink #3 - pridanie položky, vymazanie swipe gestom](https://www.youtube.com/watch?v=t8twxp9o95c)
+  * [SOVY 09.10.2020 Weblink #3 - pridanie položky, vymazanie swipe gestom](https://www.youtube.com/watch?v=t8twxp9o95c)
 * Odkazy:
   * [Swipe to Delete + Snackbar Undo](https://medium.com/@zackcosborn/step-by-step-recyclerview-swipe-to-delete-and-undo-7bbae1fce27e)
 
