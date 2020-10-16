@@ -17,9 +17,9 @@ Aplikácia **Topics**
   * [SOVY 16.10.2020 Topics #4 - detail fragment layout, recycler view grid](https://www.youtube.com/watch?v=9KQMLLQtsrw)
   * #5 bez záznamu - [commit priradenie študenta](https://github.com/miroslav-opiela/itsovy-2020-topics/commit/2bd521637a7779658dd1eda65ef5f76c82c5ce64)
 * Po prejdení obsahu z videa mi pošlite email, kde sa vyjadríte k nasledovným veciam:
- * Sú nejaké otázky k obsahu? Odpoviem mailom a/alebo si to prejdeme spoločne o týždeň
- * Vyjadrite sa k rozsahu - je dĺžka videa, preberaný obsah a vaša práca adekvátna 5 hodinám výučby v piatok?
- * Upravte UI v detail fragmente a **pošlite mi screenshot** (ak chcete tak aj kód layoutu). Ak máte dostatok chuti a času, môžete vyskúšať [CardView](https://developer.android.com/guide/topics/ui/layout/cardview)
+  * Sú nejaké otázky k obsahu? Odpoviem mailom a/alebo si to prejdeme spoločne o týždeň
+  * Vyjadrite sa k rozsahu - je dĺžka videa, preberaný obsah a vaša práca adekvátna 5 hodinám výučby v piatok?
+  * Upravte UI v detail fragmente a **pošlite mi screenshot** (ak chcete tak aj kód layoutu). Ak máte dostatok chuti a času, môžete vyskúšať [CardView](https://developer.android.com/guide/topics/ui/layout/cardview)
 
 ### 09.10.2020
 Aplikácia **Weblink** (pokračovanie)
