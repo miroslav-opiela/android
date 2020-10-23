@@ -1,3 +1,26 @@
+# Harmonogram tém
+
+**13.11.**
+- **PS**: iné platformy - Android TV, Android Auto, Wear OS  
+- **JT**: UI prehľad - material design, slices ...
+
+**20.11.**
+- **MD**: Android 11 novinky  
+- **JK**: performance
+
+**27.11.**
+- **DM** & **AK**: Android vs. iOS z pohľadu vývojára
+
+**4.12.**
+- **MJ**: security/privacy  
+
+**11.12.**
+- **DN** & **NP**: Kotlin
+
+**18.12.**
+- **JV**: Google Play 
+- **PG**: testovanie  
+
 # Hodnotenie
 **Za 1. polrok:**
 - prezentovanie prehľadovej témy
