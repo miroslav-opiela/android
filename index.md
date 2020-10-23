@@ -7,6 +7,14 @@ Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémi
 * [youtube kanál](https://www.youtube.com/channel/UCcEyuCe1od0qwOIv7bMVriA)
 * [github projekty](https://github.com/miroslav-opiela?tab=repositories)
 
+### 23.10.2020
+Aplikácia **ParkingApp**
+* zdrojový kód [ParkingApp](https://github.com/miroslav-opiela/itsovy-2020-parkingApp)
+* Videozáznamy: budú doplnené neskôr
+* Preberané koncepty: anotácie, Room database - SQLite, dao, entity, repository, viewmodel, livedata
+* Odkazy:
+  * [Tutoriál](https://codelabs.developers.google.com/codelabs/android-room-with-a-view#1)
+
 ### 16.10.2020
 Aplikácia **Topics**
 * zdrojový kód [Topics](https://github.com/miroslav-opiela/itsovy-2020-topics)
