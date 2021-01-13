@@ -7,6 +7,51 @@ Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémi
 * [youtube kanál](https://www.youtube.com/channel/UCcEyuCe1od0qwOIv7bMVriA)
 * [github projekty](https://github.com/miroslav-opiela?tab=repositories)
 
+### 18.12.2020
+* Prezentácie: Google Play, Testovanie
+* Videozáznamy:
+  * [SOVY 18.12.2020 AppComponents #1](https://www.youtube.com/watch?v=3HaF4zSOQuM)
+  * [SOVY 18.12.2020 AppComponents #2](https://www.youtube.com/watch?v=zvd7foOFrJQ)
+
+### 11.12.2020
+* Prezentácie: Kotlin
+* Videozáznamy:
+  * [SOVY 11.12.2020 MapTutorial #1 - GoogleMap, FusedLocationServiceClient](https://www.youtube.com/watch?v=xLT-8Q7n0P4)
+  * [SOVY 11.12.2020 MapTutorial #2 - Location, Permissions](https://www.youtube.com/watch?v=QpIKJkU8viQ)
+  * [SOVY 11.12.2020 MapTutorial #3 - Location, MapMarker](https://www.youtube.com/watch?v=ye-xefkbk6w)
+  * [SOVY 11.12.2020 MapTutorial #4 - JobIntentService](https://www.youtube.com/watch?v=k7Q4vLAszWY)
+  * [SOVY 11.12.2020 MapTutorial #5 - Address, Service](https://www.youtube.com/watch?v=VtTh6YJrj8A)
+  * [SOVY 11.12.2020 MapTutorial #6 - ResultReceiver](https://www.youtube.com/watch?v=BF75qJMvR0U)
+
+### 04.12.2020
+* Prezentácie: Security/Privacy
+* Videozáznamy:
+  * [SOVY 4.12.2020 HereIAm #1 - ViewBinding](https://www.youtube.com/watch?v=fe0FInpXFbg)
+  * [SOVY 4.12.2020 HereIAm #2 - Retrofit, REST post, executor](https://www.youtube.com/watch?v=1bZg5TwRwEE)
+  * [SOVY 4.12.2020 HereIAm #3 - Retrofit, REST get, mutableLiveData, Gson converting](https://www.youtube.com/watch?v=njOflquoyFk)
+  * [SOVY 4.12.2020 HereIAm #4 - Handler, opakujúci sa runnable](https://www.youtube.com/watch?v=_RwKdf580Ow)
+
+### 27.11.2020
+* Prezentácie: Android vs. iOS
+* Videozáznamy:
+  * [SOVY 27.11.2020 CallLog #4 - LiveData](https://www.youtube.com/watch?v=y9Jt-K88vdo)
+  * [SOVY 27.11.2020 CallLog #5 - ContentResolver, asynchrónne volania](https://www.youtube.com/watch?v=1HdSeJLyyOk)
+  * [SOVY 27.11.2020 CallLog #6 RecyclerView](https://www.youtube.com/watch?v=0UqDr3By5M8)
+
+### 20.11.2020
+* Prezentácie: Android 11 novinky, Performance
+* Videozáznamy:
+  * [SOVY 20.11. 2020 ParkingApp #6 - Preferences, SettingsActivity](https://www.youtube.com/watch?v=9zOJoyTNvSw)
+  * [SOVY 20.11.2020 CallLog #1 - Content provider, Repository, Architektúra aplikácie](https://www.youtube.com/watch?v=7IFzolkuahU)
+  * [SOVY 20.11.2020 CallLog #2 - Content Resolver, Cursor](https://www.youtube.com/watch?v=bAOPjF6xUQA)
+  * [SOVY 20.11.2020 CallLog #3 -- Permissions](https://www.youtube.com/watch?v=CstlGbtIe3g)
+
+### 13.11.2020
+* Prezentácie: Iné platformy (Android TV, Auto, Wear OS), Prehľad UI
+* Videozáznamy:
+  * [SOVY 13.11.2020 ParkingApp #4 - DialogFragment, Insert](https://www.youtube.com/watch?v=K8AFtJcIbPk&t=1s)
+  * [SOVY 13.11.2020 ParkingApp #5 - Delete, OnClickListener](https://www.youtube.com/watch?v=kwCRmtQP-sY)
+
 ### 23.10.2020
 Aplikácia **ParkingApp**
 * zdrojový kód [ParkingApp](https://github.com/miroslav-opiela/itsovy-2020-parkingApp)
