@@ -55,7 +55,10 @@ Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémi
 ### 23.10.2020
 Aplikácia **ParkingApp**
 * zdrojový kód [ParkingApp](https://github.com/miroslav-opiela/itsovy-2020-parkingApp)
-* Videozáznamy: budú doplnené neskôr
+* Videozáznamy:
+  * [SOVY 23.10.2020 - ParkingApp #1 - Android Room - Entity, Dao](https://www.youtube.com/watch?v=0DY1_4QPfUI)
+  * [SOVY 23.10.2020 ParkingApp #2 - Database, Repository, ViewModel](https://www.youtube.com/watch?v=Rm6rFpXd2xs)
+  * [SOVY 23.10.2020 ParkingApp #3 - Room database - prepojenie s recycler view, vloženie dát](https://www.youtube.com/watch?v=7wFlH3yvCpM&t=1s)
 * Preberané koncepty: anotácie, Room database - SQLite, dao, entity, repository, viewmodel, livedata
 * Odkazy:
   * [Tutoriál](https://codelabs.developers.google.com/codelabs/android-room-with-a-view#1)
