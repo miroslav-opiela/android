@@ -11,3 +11,12 @@ Stránka venovaná výčbe programovania pre Android v rámci Košickej akadémi
 
 
 Odkazy na prezentácie, kód a popis aplikácii budú pridávané na tejto stránke.
+
+
+
+### 01 - Rock and Roll 
+
+* [návod](2021/01-rock-and-roll.md)
+* [prezentácia](2021/01-rock-and-roll.pdf)
+* kód
+
