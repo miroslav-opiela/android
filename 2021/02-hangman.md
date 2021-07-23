@@ -56,12 +56,12 @@ Vhodné je použiť (okrem iných aj) nasledovné atribúty:
 
 [Toast](https://developer.android.com/guide/topics/ui/notifiers/toasts) - zobrazenie jednoduchej informácie pre používateľa
 
-#### Implementácia rozhrania `Game`
+#### Implementácia rozhrania Game
 
 * objekt na jedno použitie - slovo sa vygeneruje v konštruktore
 * uhádnutie (metóda `guess`) - zistiť, či sa dané písmeno v slove nachádza (ak nie, tak znížiť počet pokusov)
 
- #### Opakovanie hry
+#### Opakovanie hry
 
 * pomocná metóda `restartGame`, ktorá bude zavolaná v `onCreate` a tiež po kliknutí na šibenicu ak je už skončená hra (výhra alebo prehra)
   * v metóde `guess` môžeme vyhodiť výnimku `IllegalStateException`ak sa volá s nulovým počtom pokusov
