@@ -20,3 +20,9 @@ Odkazy na prezentácie, kód a popis aplikácii budú pridávané na tejto strá
 * [prezentácia](2021/01-rock-and-roll.pdf)
 * kód
 
+### 02 - Hangman
+
+* [návod](2021/02-hangman.md)
+* [prezentácia](2021/02-hangman.pdf)
+* kód
+
