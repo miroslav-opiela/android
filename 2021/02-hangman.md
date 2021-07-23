@@ -79,7 +79,7 @@ Vhodné je použiť (okrem iných aj) nasledovné atribúty:
 * [Zoznam](https://developer.android.com/guide/topics/manifest/activity-element.html#config) udalostí, ktoré vynútia reštart aktivity
 * Bundle - **load** v metóde `onCreate`, **save** v metóde `onSaveInstanceState`
 
-##### Bonus - Easter Eggs
+### Bonus - Easter Eggs
 
 * Kliknite si viackrát na verziu Androidu v nastaveniach
 * nájdite zaujímavé premenné/metódy v týchto triedach:
@@ -87,6 +87,7 @@ Vhodné je použiť (okrem iných aj) nasledovné atribúty:
   * [ActivityManager](https://developer.android.com/reference/android/app/ActivityManager)
   * [UserManager](https://developer.android.com/reference/android/os/UserManager)
   * [SensorManager](https://developer.android.com/reference/android/hardware/SensorManager)
+
 ## #5 Meranie času
 
 * v `HangmanGame` pridať štartovací čas (`SystemClock.elapsedRealTime()`) a metódu na výpočet aktuálneho času od začiatku hry
@@ -97,5 +98,3 @@ Vhodné je použiť (okrem iných aj) nasledovné atribúty:
 * AlertDialog
   * [Formátovanie String resource](https://developer.android.com/guide/topics/resources/string-resource#formatting-strings)
   * využije sa `AlertDialog.Builder` na vytvorenie dialógu, ktorý sa potom zobrazí metódou `show()`
-
- 
