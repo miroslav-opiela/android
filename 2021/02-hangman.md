@@ -87,7 +87,6 @@ Vhodné je použiť (okrem iných aj) nasledovné atribúty:
   * [ActivityManager](https://developer.android.com/reference/android/app/ActivityManager)
   * [UserManager](https://developer.android.com/reference/android/os/UserManager)
   * [SensorManager](https://developer.android.com/reference/android/hardware/SensorManager)
-
 ## #5 Meranie času
 
 * v `HangmanGame` pridať štartovací čas (`SystemClock.elapsedRealTime()`) a metódu na výpočet aktuálneho času od začiatku hry
