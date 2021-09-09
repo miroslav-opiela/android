@@ -28,6 +28,8 @@ Pre naše potreby použijeme nasledovný postup:
 
 Prezrite si existujúce súbory v adresároch manifests, res, java.
 
+[Viac informácii](https://medium.com/androiddevelopers/picking-your-compilesdkversion-minsdkversion-targetsdkversion-a098a0341ebd) o compile, minimum a target SDK verziách.
+
 ## #3 Layout - pridávanie tlačidiel
 
 * Preskúmať existujúci `TextView` *Hello world* a vymazať ho 
