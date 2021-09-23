@@ -24,4 +24,11 @@ Odkazy na prezentácie, kód a popis aplikácii budú pridávané na tejto strá
 
 * [návod](2021/02-hangman.md)
 * [prezentácia](2021/02-hangman.pdf)
+* [kód](https://github.com/miroslav-opiela/itsovy-2021-hangman)
+
+### 03 - Hangman - Kotlin
+
+* [návod](2021/03-hangman_kotlin.md)
+* [prezentácia](2021/03-hangman-kotlin.pdf)
 * kód
+
