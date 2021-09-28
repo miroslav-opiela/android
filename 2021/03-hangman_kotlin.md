@@ -89,7 +89,7 @@ Kotlin
 * *Kotlin novinky*
   * lateinit
   * const
-  * null safety
+  * null safety, [safe call vs. null check](https://agrawalsuneet.github.io/blogs/safe-calls-vs-null-checks-in-kotlin/)
   * random number
   * pretypovanie
   * scope funkcia with
