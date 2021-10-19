@@ -56,7 +56,35 @@
   * `startActivityForResult` je deprecated a nahradené `registerForActivityResult` - [ukážka na porovnanie](https://stackoverflow.com/questions/62671106/onactivityresult-method-is-deprecated-what-is-the-alternative) + [v dokumentácii](https://developer.android.com/training/basics/intents/result)
   * výsledok spracovať takým spôsobom, aby sa aktualizoval `recyclerView`
 
+## #5 Toolbar a pridanie novej položky
 
+* Toolbar 
+  * V manifeste nastavíme, aby bola aplikácia bez ActionBaru (namiesto neho si vyrobíme vlastný toolbar) - `android:theme="@style/Theme.AppCompat.Light.NoActionBar"` 
+  * Upraviť layout hlavnej aktivity - je potrebné pridať `androidx.appcompat.widget.Toolbar` - nastaviť vlastnosti (viď priložený layout dole) a vyriešiť constraints, aby recyclerView nezaberal celú výšku.
+  * Upraviť aj layout detail aktivity
+  * V aktivite pridať príkaz `setSupportActionBar(findViewById(R.id.toolbar))` ktorý nastaví toolbar ako action bar - teda zobrazí sa názov aplikácie.
+* Add tlačidlo v toolbare
+  * pre toolbar vyrobíme menu layout (ak v `res` chýba priečinok `menu`, vyrobíme ho kliknutím na `new->Android Resource Directory`). 
+  * v menu layoute pridáme jeden `item` 
+  * nafúkneme (inflate) menu v `onCreateOptionsMenu`
+  * v `onOptionsItemSelected` implementujeme akciu po kliknutí na item (využijeme `when` čo je v kotline podobné ako switch statement v jave)
+* Navigácie v toolbare
+  * v manifeste nastavíme pre detail aktivitu jej rodičovskú aktivitu (`android:parentActivityName`)
+  * v detail aktivite pridáme `supportActionBar?.setDisplayHomeAsUpEnabled(true)`
+* Pridanie nového weblinku
+  * spustenie aktivity s default prázdnym objektom (vyrobiť ho ako statickú metódu v triede `Weblink`)
+  * aktualizovať kde je potrebné - url v objekte ešte v detail aktivite pred save a zoznam po kliknutí na save
+  * sledujme správanie sa hlavnej aktivity (volanie metódy `onCreate`) pri použití BACK šípky v toolbare a na telefóne
+
+## #6 Swipe gestá a odstránenie položky
+
+* `ItemTouchHelper` môže byť priradený k recycler view, vyžaduje `callback`
+* `onMove`, `onSwipe` - v konštruktore označujeme číslom, ktoré akcie nás zaujímajú 
+  * `ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT`  
+  * UP = 1, DOWN = 2, LEFT = 4, RIGHT = 8, ešte START a END - podľa layoutu RecyclerView
+* v adaptéri pridať metódu na vymazanie položky podľa indexu pozície
+
+### Doplnenie - layout pre detail aktivitu s toolbarom
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -66,6 +94,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDetailActivity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
 
     <TextView
@@ -77,7 +115,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarDetailActivity"
         />
 
     <EditText
@@ -102,6 +140,39 @@
         app:layout_constraintTop_toBottomOf="@id/weblinkDetailEditText"
         android:onClick="save"
         android:text="@string/save" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+### Doplnenie - layout pre hlavnú aktivitu s toolbarom
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
