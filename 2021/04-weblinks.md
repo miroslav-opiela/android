@@ -74,6 +74,7 @@
 * Pridanie nového weblinku
   * spustenie aktivity s default prázdnym objektom (vyrobiť ho ako statickú metódu v triede `Weblink`)
   * aktualizovať kde je potrebné - url v objekte ešte v detail aktivite pred save a zoznam po kliknutí na save
+  * môžeme pridať `RESULT_CANCELED` ak máme prázdny názov
   * sledujme správanie sa hlavnej aktivity (volanie metódy `onCreate`) pri použití BACK šípky v toolbare a na telefóne
 
 ## #6 Swipe gestá a odstránenie položky
@@ -83,6 +84,50 @@
   * `ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT`  
   * UP = 1, DOWN = 2, LEFT = 4, RIGHT = 8, ešte START a END - podľa layoutu RecyclerView
 * v adaptéri pridať metódu na vymazanie položky podľa indexu pozície
+
+## #7 ViewBinding
+
+* https://developer.android.com/topic/libraries/view-binding
+
+# Databáza
+
+* [android room codelab](https://developer.android.com/codelabs/android-room-with-a-view-kotlin#1) - vysvetlené jednotlivé komponenty
+* [coroutines codelab](https://developer.android.com/codelabs/kotlin-coroutines#0)
+
+## #8 Ukladanie weblinkov do databázy
+
+* [4] update gradle súborov
+  * `File -> Project structure -> Dependencies` - update variable/dependency ak sú novšie verzie
+* [5] vyrobiť entitu - prerobiť data class `Weblink`
+  * primárny kľúč - ak potrebujeme, vieme nastaviť autogenerate a zmeniť názvy stĺpcov cez `@ColumnInfo`
+* [6] DAO
+  * [prehľad možností](https://developer.android.com/training/data-storage/room/accessing-data)
+    * napr. vararg pri update, viacnásobný insert a pod.
+  * [Základy Kotlin coroutines](https://kotlinlang.org/docs/coroutines-basics.html)
+    * okrem select metódy, ktorá vráti zoznam weblinkov - všade dávame `suspend`
+* [8] RoomDatabase
+  * singleton, `@Volatile` - aby bol aktuálny obsah premennej viditeľný v iných vláknach
+* [9] Repository
+  * má prístup k DAO, implementujme iba metódy, ktoré používame
+* [10] ViewModel
+* [13] Application
+  * kotlin delegation (`by lazy` - až keď to je potrebné, 1x get() zavolá definovanú lambda funkciu)
+  * pridať `android:name` v manifeste
+* [14] Populate database
+  * vyrobiť callback, pridať scope
+* [16] Connect with the data
+
+
+
+* V Android Studio - overenie cez App Inspector - pohľad (aj live) na data + možnosti robiť SQL dopyty a volať DAO metódy.
+
+* [7 tipov na prácu s databázou](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
+
+## #9 ListAdapter
+
+* DiffUtil - použiť Kotlin object - je to statická inštancia triedy, ktorá je len jedna (singleton)
+
+
 
 ### Doplnenie - layout pre detail aktivitu s toolbarom
 
