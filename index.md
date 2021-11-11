@@ -38,3 +38,7 @@ Odkazy na prezentácie, kód a popis aplikácii budú pridávané na tejto strá
 * [prezentácia](2021/04-weblinks.pdf)
 * [kód](https://github.com/miroslav-opiela/itsovy-2021-weblinks)
 
+### 04 - Weblinks
+
+* [návod](2021/05-open-data-game.md)
+* [kód](https://github.com/miroslav-opiela/itsovy-2021-open-data-game)
