@@ -2,7 +2,7 @@
 
 * Aplikácia uchováva zoznam krstných mien a prislúchajúci počet osôb s daným menom v meste. Po spustení hry sa vyberie zopár mien, ktoré sú zobrazené v zozname. Úlohou hráča je usporiadať mená podľa početnosti. 
 * Dáta sú dostupné na stránke ako [náhľad](https://egov.presov.sk/Default.aspx?NavigationState=925:0:) resp. [v rôznych formátoch](https://egov.presov.sk/Default.aspx?NavigationState=1100:0:) (json, xml)
-* Prehodená verzia cez REST API je dostupná [na tomto odkaze]()
+* Prehodená verzia cez REST API je dostupná [na tomto odkaze](https://ics.upjs.sk/~opiela/rest/index.php/names)
 
 ## 1. Príprava aplikácie
 
