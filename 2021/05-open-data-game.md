@@ -27,10 +27,9 @@ Pri jednotlivých triedach sa inšpirujte minulým projektom Weblinks
   * CREATE pridanie jedného záznamu (suspend funkcia)
   * DELETE vymazanie všetkých položiek (suspend funkcia)
 * **Database** - vytvoríme abstraktnú triedu so singleton inštanciou 
-* **Repository** - s troma časťami:
+* **Repository** - s dvoma časťami:
   * property typu Flow - kde sa vloží select funkcia z dao
-  * suspend funkcia (s anotáciou WorkerThread) na insert (volanie príslušnej dao funkcie)
-  * suspend funkcia načítania mien - tu nech sa vymažu všetky údaje a vložia nejaké default mená. Neskôr na tomto mieste urobíme REST volanie
+  * suspend funkcia  (s anotáciou WorkerThread) načítania mien - tu nech sa vymažu všetky údaje a vložia nejaké default mená. Neskôr na tomto mieste urobíme REST volanie
 * **Application** -  urobiť coroutineScope a inicializovať database a repository + do manifestu pridať `android:name=...`
 * **ViewModel** - pridať factory (okopírovať z vhodného miesta) + property live data + dve funkcie na insert a loadNames, ktoré spustia coroutinu a príslušnú funkciu z repository
 * Overenie:
@@ -62,11 +61,31 @@ Pri jednotlivých triedach sa inšpirujte minulým projektom Weblinks
   * pridať funkciu, ktorá vráti náhodný podzoznam so zadaným počtom prvkov (napr. `fun getRandomList(count: Int): List<Record> `) - výber z aktuálneho zoznamu
   * po kliknutí na floating action button nech sa zoberie náhodný zoznam a vloží sa adaptéru ako list (submitList). Počet nech je zatiaľ pevne daný.
 
-  
+## 4. Priebeh hry
+
+* Hlavná myšlienka - po prvom kliknutí na Floating Action Button sa spustí hra (náhodný podzoznam iba s menami bez počtov). Zoznam je možné preusporiadať. Po druhom kliknutí sa hra vyhodnotí - pribudne Toast a zobrazia sa počty. Ďalšie kliknutie spustí novú hru.
+
+* **adapter**
+  * pridať boolean premennú, ktorá určuje, či sa majú zobraziť počty k jednotlivým menám
+  * upraviť setter premennej, aby sa aktualizovalo zobrazenie zoznamu
+  * pridať val property, pričom v gettri sa vypočíta, či ide o výhru (`currentList.zipWithNext`)
+  * použiť property `visibility` na textView, ktorý zobrazuje číslo
+* **aktivita** 
+  * pridať boolean premennú označujúcu, či hra beží
+  * vytvoriť onClick metódu pre FAB v ktorej začneme novú hru alebo vyhodnotíme aktuálnu a povieme adaptéru, aby boli zobrazované počty
+* **reorder** - možnosť preusporiadať poradie pomocou ItemTouchHelper
+  * *aktivita* - pridať ItemTouchHelper s prekrytou metódou `onMove` - tam sa zavolá metóda `exchangeItems` v adaptéri
+  * *aktivita* - pripojiť itemTouchHelper k recyclerView
+  * *adapter* - implementovať `exchangeItems` - `Collections.swap(list, from, to)`
+  * pre lepšie ovládanie pridať startDrag v aktivite na základe listenera 
+
+## 5. REST API
+
+## 6. Preferences
 
 
 
-
+--------------
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
