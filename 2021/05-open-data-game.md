@@ -81,9 +81,20 @@ Pri jednotlivých triedach sa inšpirujte minulým projektom Weblinks
 
 ## 5. REST API
 
+* [článok o coroutines](https://novotnyr.github.io/scrolls/korutiny-v-kotline/)
+* [Retrofit](https://square.github.io/retrofit/) - pridať závislosť v gradle
+* pridať permission do manifestu `<uses-permission android:name="android.permission.INTERNET"/>`
+* ``suspendCancellableCoroutine`` -viď [článok o korutínach](https://novotnyr.github.io/scrolls/korutiny-v-kotline/) - potrebujeme včleniť callback štýl do coroutine.
+
 ## 6. Preferences
 
-
+* Settings Activity
+  * pridať intent na spustenie cez menu položku
+  * nastaviť rodičovskú aktivitu v manifeste
+* Upraviť položky v XML 
+  * na počet mien v hre
+  * na URL servra
+  * na zahrnutie mien s 1 výskytom
 
 --------------
 
