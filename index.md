@@ -42,3 +42,8 @@ Odkazy na prezentácie, kód a popis aplikácii budú pridávané na tejto strá
 
 * [návod](2021/05-open-data-game.md)
 * [kód](https://github.com/miroslav-opiela/itsovy-2021-open-data-game)
+
+### 06 - Call Log
+
+* [návod](2021/06-calllog.md)
+* [kód](https://github.com/miroslav-opiela/itsovy-2021-call-log)
