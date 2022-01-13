@@ -47,3 +47,8 @@ Odkazy na prezentácie, kód a popis aplikácii budú pridávané na tejto strá
 
 * [návod](2021/06-calllog.md)
 * [kód](https://github.com/miroslav-opiela/itsovy-2021-call-log)
+
+### 07 - Map Tutorial
+
+* [návod](2021/07-map-tutorial.md)
+* [kód](https://github.com/miroslav-opiela/itsovy-2021-map-tutorial)
