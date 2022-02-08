@@ -52,3 +52,7 @@ Odkazy na prezentácie, kód a popis aplikácii budú pridávané na tejto strá
 
 * [návod](2021/07-map-tutorial.md)
 * [kód](https://github.com/miroslav-opiela/itsovy-2021-map-tutorial)
+
+### 08 - Voting
+
+* [kód](https://github.com/miroslav-opiela/itsovy-2021-voting)
